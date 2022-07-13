@@ -9,8 +9,9 @@
     <!-- <insertData/> -->
     <!-- <cartProduct/> -->
     <!-- <checkForm/> -->
-    <!-- <todoComponent/> -->
+    <todoComponent/>
     <ExerciseCRUD/>
+    <!-- <checkNumber/> -->
   </div>
 </template>
 
@@ -24,8 +25,9 @@
 // import insertData from './components/unit2/exercise1.vue'
 // import cartProduct from './components/unit2/exercise2.vue'
 // import checkForm from './components/unit2/checkForm.vue'
-// import todoComponent from './components/unit3/todoApp/todoComponent.vue'
+import todoComponent from './components/unit3/todoApp/todoComponent.vue'
 import ExerciseCRUD from './components/unit3/CRUD/Exercise.vue'
+// import checkNumber from './components/unit4/checkNumber.vue'
 
 
 export default {
@@ -41,8 +43,9 @@ export default {
     // insertData,
     // cartProduct,
     // checkForm,
-    // todoComponent,
+    todoComponent,
     ExerciseCRUD,
+    // checkNumber,
   }
 }
 </script>
