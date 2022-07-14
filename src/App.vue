@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-     <!-- <unit1/>  -->
-    <!-- <ex-1/>--> 
-    <!-- <ex-2/> -->
-    <!-- <ex-3/>  -->
-    <!-- <handleSAA/> -->
-    <!-- <egV/> -->
-    <!-- <insertData/> -->
-    <!-- <cartProduct/> -->
-    <!-- <checkForm/> -->
-    <todoComponent/>
-    <ExerciseCRUD/>
+     <!-- <unit1/> 
+    <ex-1/> 
+    <ex-2/>
+    <ex-3/> 
+    <handleSAA/>
+    <egV/>
+    <insertData/>
+    <cartProduct/>
+    <checkForm/> -->
+    <!-- <todoComponent/> -->
+    <!-- <ExerciseCRUD/> -->
     <!-- <checkNumber/> -->
+    <ProductPage/>
+    <NewsDetailPage/>
   </div>
 </template>
 
@@ -25,9 +27,11 @@
 // import insertData from './components/unit2/exercise1.vue'
 // import cartProduct from './components/unit2/exercise2.vue'
 // import checkForm from './components/unit2/checkForm.vue'
-import todoComponent from './components/unit3/todoApp/todoComponent.vue'
-import ExerciseCRUD from './components/unit3/CRUD/Exercise.vue'
+// import todoComponent from './components/unit3/todoApp/todoComponent.vue'
+// import ExerciseCRUD from './components/unit3/CRUD/Exercise.vue'
 // import checkNumber from './components/unit4/checkNumber.vue'
+// import ProductPage from './components/unit4/EX4-1/ProductPage.vue'
+import NewsDetailPage from './components/unit4/EX4-2/NewsDetailPage.vue'
 
 
 export default {
@@ -43,9 +47,11 @@ export default {
     // insertData,
     // cartProduct,
     // checkForm,
-    todoComponent,
-    ExerciseCRUD,
+    // todoComponent,
+    // ExerciseCRUD,
     // checkNumber,
+    // ProductPage,
+    NewsDetailPage,
   }
 }
 </script>
@@ -57,6 +63,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 </style>
