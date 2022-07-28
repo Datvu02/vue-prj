@@ -87,76 +87,78 @@ export default {
 </script>
 
 <style scoped lang="scss">
-form-wrap {
-    padding: 15px;
-    text-align: left;
-    border: 1px solid #DCDFE6;
-    h4 {
-        color: #0080dd;
-    }
-    form {
-        .info {
-            margin: 10px 0;
-            font-size: 14px;
+    .form-wrap {
+        padding: 15px;
+        text-align: left;
+        border: 1px solid #DCDFE6;
+        h4 {
+            color: #0080dd;
         }
-        .btn-form {
-            margin: 40px 0 80px 0;
-            .el-button {
-                float: right;
-                margin-left: 10px;
-            }
-            .btn-reset {
-                float: right;
-                margin-left: 10px;
-                display: inline-block;
-                line-height: 1;
-                white-space: nowrap;
-                cursor: pointer;
-                background: #FFF;
-                border: 1px solid #DCDFE6;
-                color: #606266;
-                -webkit-appearance: none;
-                text-align: center;
-                box-sizing: border-box;
-                outline: 0;
-                transition: .1s;
-                font-weight: 500;
-                padding: 12px 20px;
+        form {
+            text-align: left !important;
+            .info {
+                margin: 10px 0;
                 font-size: 14px;
+            }
+            .btn-form {
+                margin: 40px 0 80px 0;
+                .el-button {
+                    float: right;
+                    margin-left: 10px;
+                }
+                .btn-reset {
+                    float: right;
+                    margin-left: 10px;
+                    display: inline-block;
+                    line-height: 1;
+                    white-space: nowrap;
+                    cursor: pointer;
+                    background: #FFF;
+                    border: 1px solid #DCDFE6;
+                    color: #606266;
+                    -webkit-appearance: none;
+                    text-align: center;
+                    box-sizing: border-box;
+                    outline: 0;
+                    transition: .1s;
+                    font-weight: 500;
+                    padding: 12px 20px;
+                    font-size: 14px;
+                    border-radius: 4px;
+                }
+            }
+            input {
+                -webkit-appearance: none;
+                background-color: #FFF;
+                background-image: none;
                 border-radius: 4px;
+                border: 1px solid #DCDFE6;
+                box-sizing: border-box;
+                color: #606266;
+                display: inline-block;
+                height: 40px;
+                line-height: 40px;
+                outline: 0;
+                padding: 0 15px;
+                transition: border-color .2s cubic-bezier(.645, .045, .355, 1);
+                width: 100%;
+                font-size: 16px;
+                margin-bottom: 5px;
+                line-height: 30px;
+            }
+            input::placeholder {
+                font-size: 14px;
+                color: #ccc4cc;
+            }
+            .errorBorder {
+                border-color: red;
             }
         }
-        input {
-            -webkit-appearance: none;
-            background-color: #FFF;
-            background-image: none;
-            border-radius: 4px;
-            border: 1px solid #DCDFE6;
-            box-sizing: border-box;
-            color: #606266;
-            display: inline-block;
-            height: 40px;
-            line-height: 40px;
-            outline: 0;
-            padding: 0 15px;
-            transition: border-color .2s cubic-bezier(.645, .045, .355, 1);
-            width: 100%;
-            font-size: 14px;
-            margin-bottom: 5px;
-        }
-        input::placeholder {
-            font-size: 14px;
-            color: #ccc4cc;
-        }
-        .errorBorder {
-            border-color: red;
-        }
     }
-}
-.error {
-    color: red;
-}
-.error-text {
-    font-size: 14px;
-}
+    .error {
+        color: red;
+    }
+    .error-text {
+        font-size: 14px;
+    }
 </style>
