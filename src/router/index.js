@@ -73,6 +73,11 @@ const routes = [
     component: () => import('../views/unit7/post7_1.vue')
 
   },
+  {
+    path: '/CRUD',
+    name: 'CRUD',
+    component: () => import('../views/unit7/post7_2.vue')
+  }
 
 ]
 
