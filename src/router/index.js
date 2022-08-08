@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import HomeView from '../views/admin/Admin.vue'
 
 Vue.use(VueRouter)
 
@@ -61,6 +61,11 @@ const routes = [
     path: '/loginAcc',
     name: 'loginAcc',
     component: () => import('../views/account/Login.vue'),
+  },
+  {
+    path: '/learnVueX',
+    name: 'learnVueX',
+    component: () => import('../components/unit7/LearnVueX.vue')
   }
 ]
 

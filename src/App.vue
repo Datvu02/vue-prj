@@ -5,6 +5,9 @@
 </template>
 
 <style lang="scss">
+body{
+  margin: 0;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -24,9 +27,5 @@ nav {
       color: #42b983;
     }
   }
-}
-
-body{
-    margin: 0;
 }
 </style>
