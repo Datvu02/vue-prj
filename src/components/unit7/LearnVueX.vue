@@ -6,7 +6,7 @@
         <h2>Todo : {{ $store.getters.findTodoById(2) }} </h2><br> -->
 
         <!-- <h3>{{text}}</h3> -->
-        <button @click="setTitle()">click ne</button>
+        <button @click="setTitle()">click me</button>
     </div>
 </template>
 

@@ -66,7 +66,14 @@ const routes = [
     path: '/learnVueX',
     name: 'learnVueX',
     component: () => import('../components/unit7/LearnVueX.vue')
-  }
+  },
+  {
+    path: '/cart',
+    name: 'cart',
+    component: () => import('../views/unit7/post7_1.vue')
+
+  },
+
 ]
 
 const router = new VueRouter({
