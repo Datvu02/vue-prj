@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+// import { component } from 'vue/types/umd'
 import HomeView from '../views/admin/Admin.vue'
 
 Vue.use(VueRouter)
@@ -77,7 +78,22 @@ const routes = [
     path: '/CRUD',
     name: 'CRUD',
     component: () => import('../views/unit7/post7_2.vue')
-  }
+  },
+  {
+    path: '/testLodash',
+    name: 'testLodash',
+    component: () => import('../components/session8/testLodash.vue')
+  },
+  {
+    path: '/unit8/products',
+    name: 'products',
+    component: () => import('../components/unit8/products')
+  },
+  {
+    path: '/CRUDApi',
+    name: 'CRUDApi',
+    component: () => import('../components/unit9/CRUDApi.vue')
+  },
 
 ]
 
